@@ -1,0 +1,193 @@
+@media screen and (max-width:400px){
+    .logo_name{
+        font-size: 16px !important;
+        font-weight: bold;
+    }
+}
+
+body{
+    font-family: Helvetica;
+}
+
+.logo_name{
+    color: #FFF;
+    font-size: 20px;
+}
+
+.logo_bg{
+    background-color: #2F3F67;
+}
+/* Navigation Bar */
+.navbar_items{
+    font-size: 12px;
+}
+
+/* First Banner */
+.banner_image{
+    position: relative;
+} 
+.banner{
+    position: absolute;
+    top: 3%;
+    left: 60px;
+    font-size: 25px;
+}
+.banner_info{
+    position: absolute;
+    top: 25%;
+    left: 60px;
+    font-size: 30px;
+}
+.banner_button{
+    position: absolute;
+    bottom: 15%;
+    right: 40%;
+}
+
+/* Introduction Part */
+.intro{
+    font-weight: bold;
+    font-size: 30px;
+}
+.intro_content{
+    text-align: justify;
+    font-size: 12px;
+}
+
+
+/* Rectangular Box on sidenav */
+
+.sidenav_topic{
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+.sidenav {
+    top:1px;
+    background-color: #2F3F67;
+    text-align: left;
+}
+.sidenav li{
+    list-style: none;
+}
+.sidenav li a{
+    color: #FFF;
+    font-size: 15px;
+    line-height: 50px;
+}
+.sidenav li a:hover, .active a
+{
+    color: #FFF;   
+}
+
+/* Rectangular Box Small */
+.message_from_principal {
+    text-align: justify;
+    background-color: #2F3F67; 
+    color: FFF;
+    padding: 30px;
+    position: relative;
+}
+.message_from_principal_read_more{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+
+}
+/* small rectangular box part 2 */
+.connect_with_us {
+    text-align: justify;
+    background-color: #2F3F67;
+    padding: 30px;
+    color: FFF;
+    position: relative;
+}
+/* .Contact_us_readmore{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+} */
+
+/* Tables Rules
+ */
+table, td, th {
+    border: 1px solid black;
+    padding: 2px 2px 2px 2px !important;
+  }
+  
+table {
+border-collapse: collapse;
+width: 100%;
+color: #2F3F67;
+}
+ 
+td {
+    text-align: left;
+    padding-left: 15px !important; 
+    padding-right: 5px !important;
+}
+.table_header{
+    text-align: center;
+}
+.notice_info{
+    text-align: left;
+    padding-left: 5px;
+    font-weight: bold;
+}
+/* Tables Rule Close */
+
+
+/* Notice_page */
+.notice{
+    background-color: #2F3F67;
+    padding: 20px;
+    border: 15px solid #C97F32;
+    border-radius: 25px;
+}
+span.notice_content {
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    border:2px solid #FFF;
+  }
+/* Notice_page Close */
+
+/* About_us_page */
+
+.about_us_image{
+    float: left;
+    padding: 10px;
+}
+
+/* About_us page Close */
+
+/* Listing Items */
+.listing_items{
+    text-align: justify;
+    list-style: number;
+}
+/* Listing Items close */
+
+.academic_criteria{
+    align-items: center;
+}
+
+/* Gallery Image */
+.gallery_image{
+    padding: 2px !important;
+}
+
+/* contact Us  */
+.contact_detail{
+    margin-top: 15rem !important;
+    padding: 5px;
+}
+
+/* footer page */
+.footer_text{
+    text-align: center;
+    font-size: 8px;
+}
+ /* footer_page close */
