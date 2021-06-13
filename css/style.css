@@ -4,7 +4,14 @@
         font-weight: bold;
     }
 }
-
+@media screen and (min-width:660px) and (max-width:1500px){
+    .banner_button{
+        font-size: 1.5vw !important;
+    }
+}
+.content {
+    justify-content: center;
+}
 body{
     font-family: Helvetica;
 }
@@ -19,29 +26,18 @@ body{
 }
 /* Navigation Bar */
 .navbar_items{
-    font-size: 12px;
+    font-size: 15px;
 }
-
 /* First Banner */
 .banner_image{
     position: relative;
+    width: 100%;
+    height: 80%;
 } 
-.banner{
-    position: absolute;
-    top: 3%;
-    left: 60px;
-    font-size: 25px;
-}
-.banner_info{
-    position: absolute;
-    top: 25%;
-    left: 60px;
-    font-size: 30px;
-}
 .banner_button{
     position: absolute;
-    bottom: 15%;
-    right: 40%;
+    bottom: 5%;
+    right: 20%;
 }
 
 /* Introduction Part */
@@ -51,15 +47,14 @@ body{
 }
 .intro_content{
     text-align: justify;
-    font-size: 12px;
+    font-size: 13px;
 }
-
 
 /* Rectangular Box on sidenav */
 
 .sidenav_topic{
     box-sizing: border-box;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .sidenav {
@@ -84,13 +79,14 @@ body{
 .message_from_principal {
     text-align: justify;
     background-color: #2F3F67; 
-    color: FFF;
-    padding: 30px;
+    color: #FFF;
+    padding: 25px;
     position: relative;
 }
 .message_from_principal_read_more{
     position: absolute;
-    bottom: 20px;
+    bottom: 22px;
+    font-size: 12px;
     right: 40px;
 
 }
@@ -98,9 +94,8 @@ body{
 .connect_with_us {
     text-align: justify;
     background-color: #2F3F67;
-    padding: 30px;
-    color: FFF;
-    position: relative;
+    padding: 40px;
+    color: #FFF;
 }
 /* .Contact_us_readmore{
     position: absolute;
@@ -113,8 +108,11 @@ body{
 table, td, th {
     border: 1px solid black;
     padding: 2px 2px 2px 2px !important;
-  }
-  
+    font-size: 12px;
+}
+th{
+    text-align: center;
+}  
 table {
 border-collapse: collapse;
 width: 100%;
@@ -131,7 +129,6 @@ td {
 }
 .notice_info{
     text-align: left;
-    padding-left: 5px;
     font-weight: bold;
 }
 /* Tables Rule Close */
@@ -166,7 +163,9 @@ span.notice_content {
 /* Listing Items */
 .listing_items{
     text-align: justify;
+    font-size: 12px;
     list-style: number;
+
 }
 /* Listing Items close */
 
@@ -191,3 +190,9 @@ span.notice_content {
     font-size: 8px;
 }
  /* footer_page close */
+
+ /* changes on introduction */
+
+ .details{
+     margin-right: 25px;
+ }
